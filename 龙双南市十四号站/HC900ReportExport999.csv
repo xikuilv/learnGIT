@@ -1,0 +1,124 @@
+﻿RevisionID:,0120.0035.0003.0002.0017
+File Name:,HC900-C30 Rev 6.5x : NS14
+Controller Name,CONTROLLER
+Title:,
+Author:,
+Created Date:,2017/10/25 10:12:53
+Modified Date:,2022/10/1 16:14:55
+
+Report Title:,Modbus Full Address Report
+
+Hex Addr,Dec Addr,Tag Name,Description,Type,#,Data Type,Access
+ , ,PID221,,PID,#01,,
+0x0040,65,PID221.PV,PV,PID,#01,float 32,R
+0x0042,67,PID221.RSP_SP2,RSP_SP2,PID,#01,float 32,R/W
+0x0044,69,PID221.WSP,WSP,PID,#01,float 32,R/W
+0x0046,71,PID221.Output,Output,PID,#01,float 32,R/W
+0x004A,75,PID221.CarbonPotTemp,Carbon Pot Temp,PID,#01,float 32,R
+0x004C,77,PID221.Gain1_PropBand1,Gain 1_Prop Band 1,PID,#01,float 32,R/W
+0x004E,79,PID221.Direction,Direction,PID,#01,float 32,R
+0x0050,81,PID221.Reset1,Reset 1,PID,#01,float 32,R/W
+0x0052,83,PID221.Rate1,Rate 1,PID,#01,float 32,R/W
+0x0054,85,PID221.ScanCycleTime,Scan Cycle Time,PID,#01,float 32,R
+0x0056,87,PID221.PV_LowRange,PV_Low Range,PID,#01,float 32,R
+0x0058,89,PID221.PV_HighRange,PV_High Range,PID,#01,float 32,R
+0x005A,91,PID221.Alarm1SP1,Alarm 1 SP1,PID,#01,float 32,R/W
+0x005C,93,PID221.Alarm1SP2,Alarm 1 SP2,PID,#01,float 32,R/W
+0x0060,97,PID221.Gain2_PropBand2,Gain2_Prop Band 2,PID,#01,float 32,R/W
+0x0062,99,PID221.3PosStepDeadband,3 Pos Step Deadband,PID,#01,float 32,R/W
+0x0064,101,PID221.Reset2,Reset 2,PID,#01,float 32,R/W
+0x0066,103,PID221.Rate2,Rate 2,PID,#01,float 32,R/W
+0x0068,105,PID221.CycleTime_Scan,Cycle Time_Scan,PID,#01,float 32,R
+0x006A,107,PID221.LSP1,LSP1,PID,#01,float 32,R/W
+0x006C,109,PID221.LSP2,LSP2,PID,#01,float 32,R/W
+0x006E,111,PID221.Alarm2SP1,Alarm 2 SP1,PID,#01,float 32,R/W
+0x0070,113,PID221.Alarm2SP2,Alarm 2 SP2,PID,#01,float 32,R/W
+0x0074,117,PID221.SP_LowLimit,SP_Low Limit,PID,#01,float 32,R/W
+0x0076,119,PID221.SP_HighLimit,SP_High Limit,PID,#01,float 32,R/W
+0x007A,123,PID221.Output_LowLimit,Output_Low Limit,PID,#01,float 32,R/W
+0x007C,125,PID221.Output_HighLimit,Output_High Limit,PID,#01,float 32,R/W
+0x007E,127,PID221.OutputB,Output (B),PID,#01,float 32,R/W
+0x0086,135,PID221.Ratio,Ratio,PID,#01,float 32,R/W
+0x0088,137,PID221.Bias,Bias,PID,#01,float 32,R/W
+0x008A,139,PID221.Deviation,Deviation,PID,#01,float 32,R
+0x008E,143,PID221.ManualReset,Manual Reset,PID,#01,float 32,R/W
+0x0090,145,PID221.FeedforwardGain,Feed forward Gain,PID,#01,float 32,R/W
+0x0092,147,PID221.LocalPercentCarbMonoxide,Local Percent Carb Monoxide,PID,#01,float 32,R/W
+0x0094,149,PID221.FurnaceFactor,Furnace Factor,PID,#01,float 32,R/W
+0x0096,151,PID221.PercentHydrogen,Percent Hydrogen,PID,#01,float 32,R/W
+0x0098,153,PID221.OnOff_OutHysterisis,On Off_Out Hysterisis,PID,#01,float 32,R/W
+0x009A,155,PID221.CarbPotDewPt,Carb Pot Dew Pt,PID,#01,float 32,R/W
+0x009C,157,PID221.3PosStepMotorTime,3 Pos Step Motor Time,PID,#01,float 32,R/W
+0x00F7,248,PID221.EnableDisableFuzzy,Enable Disable Fuzzy,PID,#01,unsigned 16,R/W
+0x00F8,249,PID221.DemandTuneReq,Demand Tune Req,PID,#01,unsigned 16,R/W
+0x00F9,250,PID221.AntiSootSPLimEnable,Anti Soot SP Lim Enable,PID,#01,unsigned 16,R/W
+0x00FA,251,PID221.AutoManState,Auto Man State,PID,#01,unsigned 16,R/W
+0x00FB,252,PID221.LSPSelectState,LSP Select State,PID,#01,unsigned 16,R/W
+0x00FC,253,PID221.RemLocSPState,Rem Loc SP State,PID,#01,unsigned 16,R/W
+0x00FD,254,PID221.TuneSetState,Tune Set State,PID,#01,unsigned 16,R/W
+0x00FE,255,PID221.LoopStatusRegister,Loop Status Register,PID,#01,unsigned 16,R
+
+Hex Addr,Dec Addr,Tag Name,Description,Type,#,Data Type,EU,Decimal Places,Tag Type,'On' Label,'Off' Label,Initial/Source
+0x18C0,6337,YWRLLJQL,一网热量累计清零,Variable,1,float 32, , ,Digital,ON,OFF,OFF
+0x18C2,6339,BSLLQL,补水流量清零,Variable,2,float 32, , ,Digital,ON,OFF,OFF
+0x18C4,6341,YWLLQL,一网流量清零,Variable,3,float 32, , ,Digital,ON,OFF,OFF
+0x18C6,6343,TJFGD,调节阀给定,Variable,4,float 32,,0,Analog, , ,0.00
+0x18C8,6345,XHBTZ,循环泵停止,Variable,5,float 32, , ,Digital,ON,OFF,OFF
+0x18CA,6347,XHBQD,循环泵启动,Variable,6,float 32, , ,Digital,ON,OFF,OFF
+0x18CC,6349,XHBPLSD,循环泵频率设定,Variable,7,float 32,,0,Analog, , ,0.00
+0x18CE,6351,BSYLSX,补水压力上限,Variable,8,float 32,,0,Analog, , ,0.00
+0x18D0,6353,BSYLXX,补水压力下限,Variable,9,float 32,,0,Analog, , ,0.00
+0x18D2,6355,BSBSZD,补水手自动,Variable,10,float 32, , ,Digital,ON,OFF,OFF
+0x18D4,6357,BSBTZ,补水泵停止,Variable,11,float 32, , ,Digital,ON,OFF,OFF
+0x18D6,6359,BSBQD,补水泵启动,Variable,12,float 32, , ,Digital,ON,OFF,OFF
+0x18D8,6361,XYYLSX,泄压压力上限,Variable,13,float 32,,0,Analog, , ,0.00
+0x18DA,6363,XYYLXX,泄压压力下限,Variable,14,float 32,,0,Analog, , ,0.00
+0x18DC,6365,XYFSZD,泄压手自动,Variable,15,float 32, , ,Digital,ON,OFF,ON
+0x18DE,6367,XYFTZ,泄压阀停止,Variable,16,float 32, , ,Digital,ON,OFF,OFF
+0x18E0,6369,XYFQD,泄压阀启动,Variable,17,float 32, , ,Digital,ON,OFF,OFF
+0x18E4,6373,VAR019D,流量清零,Variable,19,float 32, , ,Digital,ON,OFF,OFF
+0x18E8,6377,YWGWXZ,一供温修正,Variable,21,float 32,,0,Analog, , ,0.00
+0x18EA,6379,YWHWXZ,一回温修正,Variable,22,float 32,,0,Analog, , ,0.00
+0x18EC,6381,EWGWXZ,二供温修正,Variable,23,float 32,,0,Analog, , ,0.00
+0x18EE,6383,EWHWXZ,二回温修正,Variable,24,float 32,,0,Analog, , ,0.00
+0x18F0,6385,YWGYXZ,一供压修正,Variable,25,float 32,,0,Analog, , ,0.00
+0x18F2,6387,YWHYXZ,一回压修正,Variable,26,float 32,,0,Analog, , ,0.00
+0x18F4,6389,EWGYXZ,二供压修正,Variable,27,float 32,,0,Analog, , ,0.00
+0x18F6,6391,EWHYXZ,二回压修正,Variable,28,float 32,,0,Analog, , ,0.00
+0x18F8,6393,TJMFKXZ,调节反馈修,Variable,29,float 32,,0,Analog, , ,0.00
+0x18FA,6395,XHBPLXZ,循环频率修,Variable,30,float 32,,0,Analog, , ,0.00
+0x18FC,6397,BSBPLXZ,补水频率修,Variable,31,float 32,,0,Analog, , ,0.00
+0x18FE,6399,YWXZ,液位修正,Variable,32,float 32,,0,Analog, , ,0.00
+0x1900,6401,YHLXZ,一回流量修,Variable,33,float 32,,0,Analog, , ,0.00
+0x1902,6403,BSLLXZ,补水流量修,Variable,34,float 32,,0,Analog, , ,0.00
+0x2000,8193,YWGSWD,一网供水温度,Signal Tag,1,float 32,,0,Analog, , ,Block 101  Output 4
+0x2002,8195,YWHSWD,一网回水温度,Signal Tag,2,float 32,,0,Analog, , ,Block 102  Output 4
+0x2004,8197,EWGSWD,二网供水温度,Signal Tag,3,float 32,,0,Analog, , ,Block 103  Output 4
+0x2006,8199,EWHSWD,二网回水温度,Signal Tag,4,float 32,,0,Analog, , ,Block 104  Output 4
+0x2008,8201,YWGSYL,一网供水压力,Signal Tag,5,float 32,,0,Analog, , ,Block 105  Output 4
+0x200A,8203,YWHSYL,一网回水压力,Signal Tag,6,float 32,,0,Analog, , ,Block 106  Output 4
+0x200C,8205,EWGSYL,二网供水压力,Signal Tag,7,float 32,,0,Analog, , ,Block 107  Output 4
+0x200E,8207,EWHSYL,二回水压力,Signal Tag,8,float 32,,0,Analog, , ,Block 108  Output 4
+0x2010,8209,YWHSLL,一网回水流量,Signal Tag,9,float 32,,0,Analog, , ,Block 109  Output 4
+0x2012,8211,TJFKD,调节阀开度,Signal Tag,10,float 32,,0,Analog, , ,Block 110  Output 4
+0x2014,8213,XHBPL,循环泵频率,Signal Tag,11,float 32,,0,Analog, , ,Block 111  Output 4
+0x2016,8215,BSBPL,补水泵频率,Signal Tag,12,float 32,,0,Analog, , ,Block 112  Output 4
+0x2018,8217,BSLL,补水流量,Signal Tag,13,float 32,,0,Analog, , ,Block 113  Output 4
+0x201A,8219,SXYW,液位,Signal Tag,14,float 32,,0,Analog, , ,Block 114  Output 4
+0x201C,8221,YWLLLJ,一网流量累计,Signal Tag,15,float 32,,0,Analog, , ,Block 115  Output 1
+0x201E,8223,BSLLLJ,补水流量累计,Signal Tag,16,float 32,,0,Analog, , ,Block 117  Output 1
+0x2020,8225,YWSSRL,一网瞬时热量,Signal Tag,17,float 32,,0,Analog, , ,Block 122  Output 1
+0x2022,8227,YWRLLJ,一网热量累计,Signal Tag,18,float 32,,0,Analog, , ,Block 123  Output 1
+0x2024,8229,XHBBY,循环泵本远,Signal Tag,19,float 32, , ,Digital,ON,OFF,Block 127  Output 2
+0x2026,8231,XHBYX,循环泵运行,Signal Tag,20,float 32, , ,Digital,ON,OFF,Block 128  Output 2
+0x2028,8233,XHBGZ,循环泵故障,Signal Tag,21,float 32, , ,Digital,ON,OFF,Block 129  Output 2
+0x202A,8235,BSBYX,补水泵运行,Signal Tag,22,float 32, , ,Digital,ON,OFF,Block 133  Output 2
+0x202C,8237,BSBGZ,补水泵故障,Signal Tag,23,float 32, , ,Digital,ON,OFF,Block 134  Output 2
+0x202E,8239,XYFYX,泄压阀运行,Signal Tag,24,float 32, , ,Digital,ON,OFF,Block 143  Output 2
+0x2030,8241,BSBBY,补水泵本远,Signal Tag,25,float 32, , ,Digital,ON,OFF,Block 151  Output 2
+0x2032,8243,EGLL,加压泵频率,Signal Tag,26,float 32,,0,Analog, , ,Block 222  Output 4
+0x2034,8245,SWWD,室外温度,Signal Tag,27,float 32,,0,Analog, , ,Block 152  Output 4
+0x2036,8247,0223-004,二回水压力,Signal Tag,28,float 32,,0,Analog, , ,Block 223  Output 4
+0x2038,8249,0228-001,一网流量累计,Signal Tag,29,float 32,,0,Analog, , ,Block 228  Output 1
+
+Hex Addr,Dec Addr,Tag Name,Description,Type,#,Data Type,Decimal Places,Tag Type,Access
